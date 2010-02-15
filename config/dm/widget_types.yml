@@ -1,0 +1,5 @@
+dmWidgetFeedReader:
+
+  show:
+    cache:              false
+    public_name:        Feed show
