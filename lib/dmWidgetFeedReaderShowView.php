@@ -83,7 +83,10 @@ class dmWidgetFeedReaderShowView extends dmWidgetPluginView
       'title'       => $item->getTitle(),
       'link'        => $item->getLink(),
       'content'     => $item->getDescription() ? $item->getDescription() : $item->getContent(),
-      'pub_date'    => $item->getPubDate()
+      'pub_date'    => $item->getPubDate(),
+      'author_name' => $item->getAuthorName(),
+      'author_link' => $item->getAuthorLink(),
+      'author_email' => $item->getAuthorEmail()
     );
   }
   

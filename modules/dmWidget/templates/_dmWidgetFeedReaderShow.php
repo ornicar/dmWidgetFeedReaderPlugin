@@ -6,6 +6,9 @@
  * - link:        url of the feed item
  * - content:     HTML content
  * - pub_date:    item publication date (timestamp)
+ * - author_name: author name
+ * - author_link: author link
+ * - author_email: author email
  */
 
 echo _open('ul');
