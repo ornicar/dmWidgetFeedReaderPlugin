@@ -22,8 +22,10 @@ class dmWidgetFeedReaderShowView extends dmWidgetPluginView
   protected function doRenderForIndex()
   {
     $items = array();
+
+    $viewVars = $this->getViewVars();
     
-    foreach($this->compiledVars['items'] as $item)
+    foreach($viewVars['items'] as $item)
     {
       $items[] = $item['title'];
     }
